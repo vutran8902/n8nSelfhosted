@@ -91,5 +91,14 @@
       "@types/ws@8.5.4": "patches/@types__ws@8.5.4.patch",
       "@types/uuencode@0.0.3": "patches/@types__uuencode@0.0.3.patch"
     }
+  },
+  "dependencies": {
+    "@igabm/n8n-nodes-tiktok": "^0.1.6",
+    "@n-octo-n/n8n-nodes-curl": "^0.0.3",
+    "n8n-nodes-advanced-flow": "^0.9.18",
+    "n8n-nodes-deepseek": "^1.0.6",
+    "n8n-nodes-firecrawl": "^0.3.0",
+    "n8n-nodes-npm-tools": "^0.2.1",
+    "n8n-nodes-python-function": "^0.1.5"
   }
 }
